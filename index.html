@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript input Event Demo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="light-section">
+        <p class="heading">Metric/Imperial unit conversion</p>
+        <input placeholder="" id="message" name="message" value="0" />
+      </div>
+
+      <div class="dark-section">
+        <section>
+          <p class="dark-text">Length (Meter/Feet)</p>
+          <p class="light-text">
+            <span id="meters">0</span> meters =
+            <span id="convert-to-feet">0</span> feet |
+            <span id="feet">0</span> feet =
+            <span id="convert-to-meters"></span> meters
+          </p>
+        </section>
+
+        <section>
+          <p class="dark-text">Volume (Liters/Gallons)</p>
+          <p class="light-text">
+            <span id="liters">0</span> liters =
+            <span id="convert-to-gallons">0</span> gallons |
+            <span id="gallons">0</span> gallons =
+            <span id="convert-to-liters"></span> liters
+          </p>
+        </section>
+
+        <section>
+          <p class="dark-text">Mass (Kilograms/Pounds)</p>
+          <p class="light-text">
+            <span id="kilograms">0</span> kilos =
+            <span id="convert-to-pounds">0</span> pounds |
+            <span id="pounds">0</span> pounds =
+            <span id="convert-to-kilograms"></span> kilos
+          </p>
+        </section>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
